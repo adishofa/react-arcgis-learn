@@ -27,10 +27,9 @@ function reducer(state: any, {type, payload}: any) {
     }
 }
 
-const AppContextProvider = (props: any) => {
+const AppContextProvider = (props: any): JSX.Element => {
     const [state, dispatch] = useReducer(reducer, initialState)
     const value = {state, dispatch}
-
 
     useEffect(() => {
         shopLocator()

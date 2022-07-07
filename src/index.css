@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "https://js.arcgis.com/4.19/@arcgis/core/assets/esri/themes/light/main.css";
+@import "https://cdn.jsdelivr.net/npm/@arcgis/core@4.19.0-next.20210324/assets/esri/themes/light/main.css";
 
 body {
   margin: 0;
